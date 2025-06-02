@@ -5,10 +5,10 @@ Architecture des fichiers:
 ```
 -ML-DOCTOR
 -FL
--stl10_cnn
--stl10_fmnist
--utkface_cnn
--......
+  -stl10_cnn
+  -stl10_fmnist
+  -utkface_cnn
+  -......
 ```
 Ce repo contient 2 dossiers : 
 - L'un contenant le code de ML doctor comme suit
