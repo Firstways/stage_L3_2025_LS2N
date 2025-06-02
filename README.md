@@ -1,14 +1,15 @@
 # Stage_L3_2025_LS2N
 
 ## Présentation du repos
-
+Architecture des fichiers:
+```
 -ML-DOCTOR
 -FL
 -stl10_cnn
 -stl10_fmnist
 -utkface_cnn
 -......
-
+```
 Ce repo contient 2 dossiers : 
 - L'un contenant le code de ML doctor comme suit
 - L'autre contenant les différents scripts pour faire sauvegarder les modèles fédéré avec différents dataset
