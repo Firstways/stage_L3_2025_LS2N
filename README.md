@@ -33,7 +33,7 @@ La strategy utilisé dans mes scripts est FedAvg. C'est-à-dire que le serveur m
 
 **Le nom du fichier contenant le modèle doit être au format dataset+model_path**
 
-## Modification du code source
+## Modification du code source de ML-Doctor
 Dans cette section, je vous explique dans les grandes lignes les modifications que j'ai apportées par rapport au code source.
 
 - Ajout du paramètre "model_path" qui contient la deuxième partie du fichier qui contient le modèle à tester. le nom du fichier source
@@ -41,3 +41,13 @@ Dans cette section, je vous explique dans les grandes lignes les modifications q
 - Modification de la classe UTKFaceDataset
 - Ajout de la clase EdgeIIot **Attention à cette classe, elle n'a pas été testée correctement**
 - Ajout de la classe MLP
+
+## Script FL
+Dans le dossier script FL, il y'a 5 scripts pour entrainer des modèles fédéré à savoir:
+- Le dataset edgeIIot avec un MLP
+- le dataset FMNIST avec alexnet
+- Le dataset FMNIST avec un simple cnn
+- Le dataset STL10 avec un simple cnn
+- le dataset UTKFace avec un simple cnn
+
+Le dernier script est mon script pour le préprocess de edgeIIot.
